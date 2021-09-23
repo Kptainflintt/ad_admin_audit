@@ -17,7 +17,7 @@ if ((Test-Admin) -eq $false)  {
 
 Write-Host "Ce script s'execute en Administrateur" -foregroundcolor "yellow"
 
-#Enumération des types de connexions d'un évènement Windows
+#Enumération des types de connexions d'un évènement Windows. Merci a theposhwolf.com
 enum LogonTypes {
     Interactive = 2
     Network = 3
